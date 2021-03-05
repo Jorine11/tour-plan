@@ -5,8 +5,6 @@
   .container
     max-width: 760px
   .navbar
-    .logo
-      width: 132px
     &-top
       padding-top: 30px
       padding-bottom: 30px
@@ -21,6 +19,8 @@
   .search
     &__input
       max-width: 340px
+  .user
+    padding: 0
 @media (max-width: 768px)
   .container
     max-width: 576px
@@ -43,6 +43,11 @@
         width: 16px
         height: 1px
         background-color: $text-color
-@media (max-width: 576px)
-  .logo
-    width: 99px
+@media (max-width: 480px)
+  .navbar
+    .logo
+      width: 132px
+@media (max-width: 320px)
+  .navbar
+    .logo
+      width: 99px

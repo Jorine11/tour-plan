@@ -493,9 +493,6 @@ template {
   .container {
     max-width: 760px;
   }
-  .navbar .logo {
-    width: 132px;
-  }
   .navbar-top {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -513,6 +510,9 @@ template {
   }
   .search__input {
     max-width: 340px;
+  }
+  .user {
+    padding: 0;
   }
 }
 
@@ -551,8 +551,14 @@ template {
   }
 }
 
-@media (max-width: 576px) {
-  .logo {
+@media (max-width: 480px) {
+  .navbar .logo {
+    width: 132px;
+  }
+}
+
+@media (max-width: 320px) {
+  .navbar .logo {
     width: 99px;
   }
 }
