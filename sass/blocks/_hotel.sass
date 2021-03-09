@@ -6,8 +6,12 @@
     align-items: center
     justify-content: space-between
     &__stars
+      height: 8px
       margin-bottom: 4px
       flex-basis: 100%
+      vertical-align: top
+      display: flex
+      justify-content: start
     &__offer
       font-size: 10px
       line-height: 13px
@@ -17,7 +21,7 @@
       color: $light
     &__name
       margin: 0
-      margin-right: 14px
+      margin-right: 17px
   &-name
     font-size: 24px
     line-height: 30px
@@ -52,3 +56,12 @@
     font-weight: 700
     color: $light
     margin: 0
+    &--small
+      font-size: 10px
+      line-height: 13px
+.star
+  width: 8px
+  height: 8px
+  display: block
+  &:not(:last-child)
+    margin-right: 2px
