@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&family=Nunito:wght@400;600;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -124,27 +124,38 @@
           <div class="rating hotel-info__rating">
             <span class="rating__text">User Rattings</span>
             <span class="rating__counter"
-              >4.5/<span class="rating__counter--small">5</span>
+              >4.5/<span class="rating__counter rating__counter--small">5</span>
             </span>
           </div>
         </div>
         <!-- /.hotel-info -->
         <div class="slider">
           <div class="swiper-container">
-          <!-- Additional required wrapper -->
-          <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide"><img src="img/slide-1.jpg" alt="slide"></div>
-            <div class="swiper-slide"><img src="img/slide-2.jpg" alt="slide"></div>
-            <div class="swiper-slide"><img src="img/slide-3.jpg" alt="slide"></div>
-            <div class="swiper-slide"><img src="img/slide-4.jpg" alt="slide"></div>
-            <div class="swiper-slide"><img src="img/slide-5.jpg" alt="slide"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img src="img/slide-1.jpg" alt="slide" class="slide-img" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/slide-2.jpg" alt="slide" class="slide-img" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/slide-3.jpg" alt="slide" class="slide-img" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/slide-4.jpg" alt="slide" class="slide-img" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/slide-5.jpg" alt="slide" class="slide-img" />
+              </div>
+            </div>
+            <!-- If we need navigation buttons -->
+            <button class="slider-button slider-button--prev"></button>
+            <button class="slider-button slider-button--next"></button>
           </div>
-          <!-- If we need navigation buttons -->
-          <button class="slider-button slider-button--prev"></button>
-          <button class="slider-button slider-button--next"></button>
+          <!-- /.slider -->
         </div>
-        <!-- /.slider -->
       </div>
       <!-- /.container -->
     </section>

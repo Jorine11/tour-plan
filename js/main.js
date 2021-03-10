@@ -10,5 +10,10 @@ const swiper = new Swiper('.swiper-container', {
   keyboard: {
     enabled: true,
     onlyInViewport: false,
+    pageLeft: true,
+    pageRight: true,
+  },
+  autoplay: {
+  delay: 5000,
   },
 });
