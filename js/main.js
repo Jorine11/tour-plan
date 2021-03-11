@@ -31,4 +31,9 @@ const swiper = new Swiper('.swiper-container', {
             // от 0 (весь мир) до 19.
             zoom: 17
         });
-    }
+        var myPlacemark = new ymaps.Placemark( [55.774054, 37.651793], {
+          balloonContent: 'Россия, Москва, Каланчёвская улица, 21/40',
+          hintContent:  'Hilton Moscow Leningradskaya'
+        });
+        myMap.geoObjects.add(myPlacemark);
+      }

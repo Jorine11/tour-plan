@@ -375,7 +375,7 @@ button {
   min-height: 210px;
   background: #0A223D;
   border-radius: 8px;
-  padding: 29px 29px 26px 26px;
+  padding: 29px 22px 26px 24px;
 }
 
 .booking-details {
@@ -934,7 +934,6 @@ template {
   }
   .booking-info {
     width: 340px;
-    height: 210px;
   }
   .map {
     width: 340px;
@@ -1041,11 +1040,11 @@ template {
             align-items: center;
   }
   .booking-info {
-    width: 350px;
+    width: 100%;
     margin-bottom: 20px;
   }
   .map {
-    width: 350px;
+    width: 100%;
   }
 }
 
@@ -1094,6 +1093,9 @@ template {
   .slide-img {
     height: 100%;
     width: 100%;
+  }
+  .slider {
+    margin-bottom: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
