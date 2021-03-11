@@ -12,6 +12,10 @@
     />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://api-maps.yandex.ru/2.1/?apikey=9bb85ab4-cdf2-426d-b1df-69af474a8748&lang=ru_RU"
+      type="text/javascript"
+    ></script>
   </head>
   <body>
     <header class="navbar">
@@ -129,36 +133,80 @@
           </div>
         </div>
         <!-- /.hotel-info -->
-        <div class="slider">
-          <div class="swiper-container">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-              <!-- Slides -->
-              <div class="swiper-slide">
-                <img src="img/slide-1.jpg" alt="slide" class="slide-img" />
+        <div class="hotel-review">
+          <div class="slider">
+            <div class="swiper-container">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img src="img/slide-1.jpg" alt="slide" class="slide-img" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/slide-2.jpg" alt="slide" class="slide-img" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/slide-3.jpg" alt="slide" class="slide-img" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/slide-4.jpg" alt="slide" class="slide-img" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/slide-5.jpg" alt="slide" class="slide-img" />
+                </div>
               </div>
-              <div class="swiper-slide">
-                <img src="img/slide-2.jpg" alt="slide" class="slide-img" />
-              </div>
-              <div class="swiper-slide">
-                <img src="img/slide-3.jpg" alt="slide" class="slide-img" />
-              </div>
-              <div class="swiper-slide">
-                <img src="img/slide-4.jpg" alt="slide" class="slide-img" />
-              </div>
-              <div class="swiper-slide">
-                <img src="img/slide-5.jpg" alt="slide" class="slide-img" />
-              </div>
+              <!-- If we need navigation buttons -->
+              <button class="slider-button slider-button--prev"></button>
+              <button class="slider-button slider-button--next"></button>
             </div>
-            <!-- If we need navigation buttons -->
-            <button class="slider-button slider-button--prev"></button>
-            <button class="slider-button slider-button--next"></button>
+            <!-- /.slider -->
           </div>
-          <!-- /.slider -->
+          <div class="booking">
+            <div class="booking-info">
+              <div class="booking-details">
+                <div class="booking-price">
+                  <span class="booking-price__start">price starts as</span>
+                  <span class="price">$ 8,500</span>
+                  <span class="booking-price__per-room">per room / night</span>
+                </div>
+                <!-- /.booking-price -->
+                <div class="person">
+                  <div class="guests">
+                    <img src="img/user.svg" alt="icon: user" />
+                    <span class="guests__text">2 x Guests</span>
+                  </div>
+                  <div class="room">
+                    <img src="img/home.svg" alt="icon: home" />
+                    <span class="room__text">1 x Room</span>
+                  </div>
+                </div>
+              </div>
+              <!-- /.price -->
+              <div class="call-center">
+                <span class="call-center__text">Quick Booking</span>
+                <div class="call-center__call">
+                  <a class="call-center__number" href="tel:12100">
+                    <img
+                      src="img/phone-call.svg"
+                      alt="icon: phone"
+                      class="call-center__phone"
+                    />
+                    <span class="call-center__num">12100</span>
+                  </a>
+                </div>
+              </div>
+              <!-- /.call-center -->
+              <button class="booking-btn">View Other Options</button>
+            </div>
+            <!-- /.booking-info -->
+            <div id="map" class="map"></div>
+          </div>
+          <!-- /.booking -->
         </div>
       </div>
       <!-- /.container -->
     </section>
+    <script src="angular-ymaps.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>

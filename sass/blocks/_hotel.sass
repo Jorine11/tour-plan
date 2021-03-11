@@ -35,6 +35,9 @@
     margin: 0
     font-size: 12px
     line-height: 15px
+  &-review
+    display: flex
+    justify-content: space-between
 .rating
   max-width: 65px
   min-height: 45px
@@ -106,3 +109,101 @@
 .slide
   &-img
     object-fit: cover
+.booking
+  font-family: 'Nunito', sans-serif
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  &-info
+    width: 350px
+    min-height: 210px
+    background: #0A223D
+    border-radius: 8px
+    padding: 29px 29px 26px 26px
+  &-details
+    display: flex
+    justify-content: space-between
+    color: $light
+    margin-bottom: 8px
+  &-price
+    display: flex
+    flex-direction: column
+    &__start
+      font-style: normal
+      font-weight: normal
+      font-size: 10px
+      line-height: 14px
+    &__per-room
+      font-style: normal
+      font-weight: normal
+      font-size: 12px
+      line-height: 16px
+      margin-top: -3px
+  &-btn
+    width: 295px
+    height: 45px
+    background-color: $primary
+    color: $light
+    border: none
+    border-radius: 4px
+    font-style: normal
+    font-weight: 600
+    font-size: 14px
+    line-height: 19px
+.person
+  width: 80px
+  display: flex
+  flex-wrap: wrap
+  align-items: center
+  justify-content: space-between
+  height: 40px
+  margin-top: 4px
+.price
+  font-style: normal
+  font-weight: 800
+  font-size: 24px
+  line-height: 33px
+.guests
+  width: 100%
+  font-style: normal
+  font-weight: normal
+  font-size: 12px
+  line-height: 16px
+  margin-bottom: 8px
+  display: flex
+  justify-content: space-between
+.room
+  width: 100%
+  font-style: normal
+  font-weight: normal
+  font-size: 12px
+  line-height: 16px
+  display: flex
+  justify-content: space-between
+.call-center
+  display: flex
+  justify-content: space-between
+  align-items: center
+  margin-bottom: 17px
+  &__text
+    color: $light
+    font-style: normal
+    font-weight: 600
+    font-size: 18px
+    line-height: 25px
+  &__num
+    font-style: normal
+    font-weight: 600
+    font-size: 18px
+    line-height: 25px
+  &__number
+    width: 76px
+    justify-content: space-between
+    text-decoration: none
+    color: $light
+    display: flex
+    align-items: center
+.map
+  width: 347px
+  height: 213px
+  border-radius: 10px

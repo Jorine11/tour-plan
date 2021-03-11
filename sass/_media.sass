@@ -1,6 +1,11 @@
 @media (max-width: 1200px)
   .container
     max-width: 960px
+  .slider
+    width: 60%
+  .slide-img
+    height: 100%
+    width: 100%
 @media (max-width: 992px)
   .container
     max-width: 700px
@@ -22,12 +27,24 @@
       &__link
         font-size: 12px
         line-height: 15px
-
   .search
     &__input
       max-width: 340px
   .slider
     width: 700px
+    margin-bottom: 30px
+  .hotel
+    &-review
+      flex-direction: column
+  .booking
+    flex-direction: row
+    &-info
+      width: 340px
+      height: 210px
+  .map
+    width: 340px
+    height: 210px
+    border-radius: 10px
 @media (max-width: 768px)
   .container
     max-width: 576px
@@ -74,10 +91,26 @@
         flex-basis: auto
     &-name
       flex-basis: 100%
+  .booking
+    &-info
+      width: 48%
+    &-btn
+      width: 100%
+  .map
+    width: 48%
 @media (max-width: 578px)
   .hotel
     padding-top: 5px
     padding-bottom: 40px
+  .booking
+    flex-direction: column
+    align-items: center
+    &-info
+      width: 350px
+      margin-bottom: 20px
+  .map
+    width: 350px
+
 @media (max-width: 480px)
   .navbar
     .logo
@@ -85,6 +118,12 @@
   .hotel
     padding-top: 5px
     padding-bottom: 40px
+@media (max-width: 380px)
+  .booking
+    &-info
+      width: 100%
+  .map
+    width: 100%
 @media (max-width: 320px)
   .container
     width: 280px
