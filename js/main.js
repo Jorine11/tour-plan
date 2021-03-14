@@ -36,4 +36,6 @@ const swiper = new Swiper('.swiper-container', {
           hintContent:  'Hilton Moscow Leningradskaya'
         });
         myMap.geoObjects.add(myPlacemark);
-      }
+      };
+
+    // $('.parallax-window').parallax({imageSrc: '../img/newsletter.jpeg'});
