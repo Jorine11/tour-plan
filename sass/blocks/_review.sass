@@ -1,0 +1,80 @@
+.review
+  padding-top: 40px
+  padding-bottom: 70px
+  &-container
+    position: relative
+    height: auto
+  &-title
+    font-style: normal
+    font-weight: bold
+    font-size: 36px
+    line-height: 45px
+    text-align: center
+    text-transform: uppercase
+    margin: 0
+    margin-bottom: 70px
+  &-slide
+    &__item
+      display: flex
+      flex-direction: column
+      align-items: center
+      max-width: 731px
+      margin: auto
+      background: #FFFFFF
+      border-radius: 8px
+      padding: 0 62px 30px
+      margin-top: 45px
+  &-text
+    font-style: normal
+    font-weight: normal
+    font-size: 12px
+    line-height: 160%
+    text-align: justify
+    width: 537px
+    min-height: 114px
+  &__button
+    width: 30px
+    height: 30px
+    position: absolute
+    bottom: 50%
+    z-index: 99
+    border: none
+    cursor: pointer
+    background-repeat: no-repeat
+    background-position: center
+    background-size: 10px
+    &--prev
+      left: 18px
+      background-image: url(../img/arrow-prev-secondary.svg)
+      color: #828282
+    &--next
+      right: 18px
+      background-image: url(../img/arrow-next-secondary.svg)
+.profile
+  display: flex
+  flex-direction: column
+  align-items: center
+  margin-top: -45px
+  margin-bottom: 32px
+  &__avatar
+    width: 90px
+    height: 90px
+    border-radius: 50%
+    object-fit: cover
+    margin-bottom: 9px
+  &__username
+    font-style: normal
+    font-weight: bold
+    font-size: 12px
+    line-height: 15px
+    color: #EC1F46
+    margin-bottom: 10px
+  &__data
+    font-style: normal
+    font-weight: normal
+    font-size: 10px
+    line-height: 13px
+    margin-bottom: 4px
+    color: #000
+  &__rating
+    display: flex

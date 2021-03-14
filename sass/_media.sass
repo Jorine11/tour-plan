@@ -34,6 +34,7 @@
     width: 700px
     margin-bottom: 30px
   .hotel
+    padding-bottom: 60px
     &-review
       flex-direction: column
   .booking
@@ -44,6 +45,34 @@
     width: 340px
     height: 210px
     border-radius: 10px
+  .newsletter
+    &-container
+      width: 700px
+    &-wrap
+      padding-top: 92px
+      padding-bottom: 93px
+  .review
+    &-container
+      height: auto
+    &-title
+      font-style: normal
+      font-weight: bold
+      font-size: 30px
+      line-height: 38px
+      text-align: center
+      text-transform: uppercase
+      margin-bottom: 50px
+    &-slide
+      &__item
+        width: 580px
+    &-text
+      width: 455px
+    &__button
+      bottom: 46%
+      &--prev
+        left: 0
+      &--next
+        right: 2px
 @media (max-width: 768px)
   .container
     max-width: 576px
@@ -97,6 +126,26 @@
       width: 100%
   .map
     width: 48%
+  .newsletter
+    &-container
+      width: 83%
+    &-wrap
+      flex-wrap: wrap
+    &-text
+      margin-bottom: 30px
+  .review
+    &-container
+      height: auto
+    &__button
+      top: 32px
+      &--prev
+        left: 50%
+        transform: translate(-50%, 0)
+        margin-left: -85px
+      &--next
+        right: 50%
+        transform: translate(50%, 0)
+        margin-right: -85px
 @media (max-width: 578px)
   .hotel
     padding-top: 5px
@@ -109,6 +158,21 @@
       margin-bottom: 20px
   .map
     width: 100%
+  .newsletter
+    &-container
+      width: 87%
+    &-wrap
+      flex-wrap: wrap
+    &-text
+      margin-bottom: 37px
+  .review
+    &-container
+      height: auto
+    &-slide
+      &__item
+        width: 100%
+    &-text
+      width: 100%
 
 @media (max-width: 480px)
   .navbar
@@ -123,6 +187,14 @@
       width: 100%
   .map
     width: 100%
+  .review
+    &-title
+      font-style: normal
+      font-weight: bold
+      font-size: 18px
+      line-height: 23px
+      text-align: center
+      text-transform: uppercase
 @media (max-width: 320px)
   .container
     width: 280px
@@ -147,3 +219,29 @@
     width: 100%
   .slider
     margin-bottom: 20px
+  .newsletter
+    &-wrap
+      padding-top: 38px
+      padding-bottom: 83px
+    &-text
+      font-style: normal
+      font-weight: 300
+      font-size: 20px
+      line-height: 25px
+      margin-bottom: 42px
+      &--strong
+        font-style: normal
+        font-weight: 600
+        font-size: 30px
+        line-height: 38px
+        text-transform: uppercase
+  .review
+    &-container
+      height: auto
+    &-title
+      width: 245px
+      margin: auto
+      margin-bottom: 42px
+    &-slide
+      &__item
+        padding: 0 30px 30px 30px

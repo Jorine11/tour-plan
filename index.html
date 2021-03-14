@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Best Tour Plan - Hotel Booking</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -131,7 +131,7 @@
         <!-- /.hotel-info -->
         <div class="hotel-review">
           <div class="slider">
-            <div class="swiper-container">
+            <div class="swiper-container hotel-slider">
               <!-- Additional required wrapper -->
               <div class="swiper-wrapper">
                 <!-- Slides -->
@@ -205,31 +205,142 @@
     <section class="newsletter">
       <div class="newsletter-container">
         <div class="newsletter-wrap">
-          <div class="newsletter-text">
+          <h2 class="newsletter-text">
             subscribe to our
-            <span class="newsletter-text--strong">Newsletter</span>
-          </div>
+            <span class="newsletter-text newsletter-text--strong"
+              >Newsletter</span
+            >
+          </h2>
           <!-- /.newsletter-text -->
           <div class="newsletter-input">
             <form action="#" class="newsletter-subscribe">
               <input
                 type="text"
-                class="subscribe__input"
+                class="newsletter-subscribe__input"
                 placeholder="Your email address"
               />
-              <button class="button subscribe__button">Send</button>
+              <button class="button newsletter-subscribe__button">Send</button>
             </form>
           </div>
           <!-- /.newsletter-input -->
         </div>
-        </div>
       </div>
     </section>
     <!-- /.newsletter -->
+    <section class="review">
+      <div class="container">
+        <h2 class="review-title">What people think about us</h2>
+        <div class="swiper-container review-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper review-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide review-slide">
+              <div class="review-slide__item">
+                <div class="profile">
+                  <img
+                    src="img/profile-avatar-1.jpeg"
+                    alt="name: Megan Fox"
+                    class="profile__avatar"
+                  />
+                  <div class="profile__username">Megan Fox</div>
+                  <div class="profile__data">Stayed 18 Nov, 2019</div>
+                  <div class="profile__rating">
+                    <img src="img/star.svg" alt="star" class="star" />
+                    <img src="img/star.svg" alt="star" class="star" />
+                    <img src="img/star.svg" alt="star" class="star" />
+                    <img src="img/star.svg" alt="star" class="star" />
+                    <img src="img/star.svg" alt="star" class="star" />
+                  </div>
+                </div>
+                <!-- /.profile -->
+                <div class="review-text">
+                  It was very nice hotel with cleanliness. Staff behavior was
+                  good and polite. They welcome us very well. Issue was only
+                  that Lift was not in working and we were allotted to 3rd floor
+                  and amenities articles were in corner of gallery which were
+                  giving bad feeling. Breakfast was good and support of the
+                  staff was also very nice. Location is not good as per
+                  atmosphere, it is very nearby most of the popular places but
+                  self location in a narrow street is not good. Overall it was a
+                  good experience and could recommend.
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide review-slide">
+              <div class="review-slide__item">
+                <div class="profile">
+                  <img
+                    src="img/profile-avatar-2.jpeg"
+                    alt="name: Megan Fox"
+                    class="profile__avatar"
+                  />
+                  <div class="profile__username">Никита</div>
+                  <div class="profile__data">Stayed 18 Nov, 2019</div>
+                  <div class="profile__rating">
+                    <img src="img/star.svg" alt="star" class="star" />
+                    <img src="img/star.svg" alt="star" class="star" />
+                    <img src="img/star.svg" alt="star" class="star" />
+                    <img src="img/star.svg" alt="star" class="star" />
+                    <img src="img/star.svg" alt="star" class="star" />
+                  </div>
+                </div>
+                <!-- /.profile -->
+                <div class="review-text">
+                  It was very nice hotel with cleanliness. Staff behavior was
+                  good and polite. They welcome us very well. Issue was only
+                  that Lift was not in working and we were allotted to 3rd floor
+                  and amenities articles were in corner of gallery which were
+                  giving bad feeling. Breakfast was good and support of the
+                  staff was also very nice. Location is not good as per
+                  atmosphere, it is very nearby most of the popular places but
+                  self location in a narrow street is not good. Overall it was a
+                  good experience and could recommend.
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide review-slide">
+              <div class="review-slide__item">
+                <div class="profile">
+                  <img
+                    src="img/profile-avatar-3.jpeg"
+                    alt="name: Megan Fox"
+                    class="profile__avatar"
+                  />
+                  <div class="profile__username">Мишаня</div>
+                  <div class="profile__data">Stayed 18 Nov, 2019</div>
+                  <div class="profile__rating">
+                    <img src="img/star.svg" alt="star" class="star" />
+                    <img src="img/star.svg" alt="star" class="star" />
+                    <img src="img/star.svg" alt="star" class="star" />
+                    <img src="img/star.svg" alt="star" class="star" />
+                    <img src="img/star.svg" alt="star" class="star" />
+                  </div>
+                </div>
+                <!-- /.profile -->
+                <div class="review-text">
+                  It was very nice hotel with cleanliness. Staff behavior was
+                  good and polite. They welcome us very well. Issue was only
+                  that Lift was not in working and we were allotted to 3rd floor
+                  and amenities articles were in corner of gallery which were
+                  giving bad feeling. Breakfast was good and support of the
+                  staff was also very nice. Location is not good as per
+                  atmosphere, it is very nearby most of the popular places but
+                  self location in a narrow street is not good. Overall it was a
+                  good experience and could recommend.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="review__button review__button--prev"></div>
+          <div class="review__button review__button--next"></div>
+        </div>
+      </div>
+    </section>
     <script
       src="https://api-maps.yandex.ru/2.1/?apikey=9bb85ab4-cdf2-426d-b1df-69af474a8748&lang=ru_RU"
       type="text/javascript"
-      ></script>
+    ></script>
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
