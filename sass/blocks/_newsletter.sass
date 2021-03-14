@@ -1,17 +1,4 @@
 .newsletter
-  background-image: url(../img/newsletter.jpeg)
-  position: relative
-  background-repeat: no-repeat
-  background-size: cover
-  background-position: center center
-  &::before
-    content: ''
-    background-color: rgba(10, 34, 61, 0.8)
-    position: absolute
-    top: 0
-    left: 0
-    right: 0
-    bottom: 0
   &-container
     max-width: 731px
     margin: auto
@@ -66,3 +53,14 @@
       font-weight: bold
       font-size: 12px
       line-height: 15px
+
+.parallax-window
+  position: relative
+  &::before
+    content: ''
+    background-color: rgba(10, 34, 61, 0.8)
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0

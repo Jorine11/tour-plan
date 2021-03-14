@@ -58,4 +58,8 @@ const reviewSlider = new Swiper('.review-container', {
         myMap.geoObjects.add(myPlacemark);
       };
 
-    // $('.parallax-window').parallax({imageSrc: '../img/newsletter.jpeg'});
+    $('.parallax-window').parallax({imageSrc: '../img/newsletter.jpeg'});
+
+    $('.parallax-window').parallax({
+    speed: 0.4,
+  });
