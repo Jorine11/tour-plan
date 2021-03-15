@@ -376,7 +376,7 @@ button {
   min-height: 210px;
   background: #0A223D;
   border-radius: 8px;
-  padding: 29px 22px 26px 24px;
+  padding: 29px 30px 26px 24px;
 }
 
 .booking-details {
@@ -528,6 +528,7 @@ button {
   width: 347px;
   height: 213px;
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .newsletter-container {
@@ -594,7 +595,8 @@ button {
   position: absolute;
   top: 0;
   right: 0;
-  width: 65px;
+  min-width: 65px;
+  max-width: 100px;
   height: 100%;
   border: none;
   background-color: #EC1F46;
@@ -1249,6 +1251,7 @@ template {
   }
   .booking-info {
     width: 340px;
+    padding: 30px 23px 26px 24px;
   }
   .map {
     width: 340px;
@@ -1530,8 +1533,11 @@ template {
   .slider {
     margin-bottom: 20px;
   }
+  .map {
+    height: 172px;
+  }
   .newsletter-wrap {
-    padding-top: 38px;
+    padding-top: 79px;
     padding-bottom: 83px;
   }
   .newsletter-text {
@@ -1539,7 +1545,7 @@ template {
     font-weight: 300;
     font-size: 20px;
     line-height: 25px;
-    margin-bottom: 42px;
+    margin-bottom: 38px;
   }
   .newsletter-text--strong {
     font-style: normal;
@@ -1547,6 +1553,9 @@ template {
     font-size: 30px;
     line-height: 38px;
     text-transform: uppercase;
+  }
+  .newsletter-subscribe__input {
+    padding: 18px 75px 18px 17px;
   }
   .review-container {
     height: auto;

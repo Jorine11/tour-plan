@@ -1,4 +1,4 @@
-const hotelSlider = new Swiper('.swiper-container', {
+const hotelSlider = new Swiper('.hotel-slider', {
   // Optional parameters
   loop: true,
 
@@ -27,15 +27,6 @@ const reviewSlider = new Swiper('.review-container', {
     nextEl: '.review__button--next',
     prevEl: '.review__button--prev',
   },
-  keyboard: {
-    enabled: true,
-    onlyInViewport: false,
-    pageLeft: true,
-    pageRight: true,
-  },
-  autoplay: {
-  delay: 5000,
-  },
 });
 
     ymaps.ready(init);
@@ -57,9 +48,3 @@ const reviewSlider = new Swiper('.review-container', {
         });
         myMap.geoObjects.add(myPlacemark);
       };
-
-    $('.parallax-window').parallax({imageSrc: '../img/newsletter.jpeg'});
-
-    $('.parallax-window').parallax({
-    speed: 0.4,
-  });
