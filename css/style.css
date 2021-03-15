@@ -596,6 +596,7 @@ button {
   top: 0;
   right: 0;
   min-width: 65px;
+  max-width: 100px;
   height: 100%;
   border: none;
   background-color: #EC1F46;
@@ -1151,6 +1152,7 @@ template {
   }
   .booking-info {
     width: 340px;
+    padding: 30px 23px 26px 24px;
   }
   .map {
     width: 340px;
@@ -1407,7 +1409,7 @@ template {
     height: 172px;
   }
   .newsletter-wrap {
-    padding-top: 38px;
+    padding-top: 79px;
     padding-bottom: 83px;
   }
   .newsletter-text {
@@ -1415,7 +1417,7 @@ template {
     font-weight: 300;
     font-size: 20px;
     line-height: 25px;
-    margin-bottom: 42px;
+    margin-bottom: 38px;
   }
   .newsletter-text--strong {
     font-style: normal;
@@ -1423,6 +1425,9 @@ template {
     font-size: 30px;
     line-height: 38px;
     text-transform: uppercase;
+  }
+  .newsletter-subscribe__input {
+    padding: 18px 75px 18px 17px;
   }
   .review-container {
     height: auto;
