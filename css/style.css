@@ -376,7 +376,7 @@ button {
   min-height: 210px;
   background: #0A223D;
   border-radius: 8px;
-  padding: 29px 22px 26px 24px;
+  padding: 29px 30px 26px 24px;
 }
 
 .booking-details {
@@ -528,6 +528,7 @@ button {
   width: 347px;
   height: 213px;
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .newsletter-container {
@@ -594,7 +595,7 @@ button {
   position: absolute;
   top: 0;
   right: 0;
-  width: 65px;
+  min-width: 65px;
   height: 100%;
   border: none;
   background-color: #EC1F46;
@@ -1401,6 +1402,9 @@ template {
   }
   .slider {
     margin-bottom: 20px;
+  }
+  .map {
+    height: 172px;
   }
   .newsletter-wrap {
     padding-top: 38px;

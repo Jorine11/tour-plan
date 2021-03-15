@@ -29,7 +29,7 @@ const reviewSlider = new Swiper('.review-container', {
   },
   keyboard: {
     enabled: true,
-    onlyInViewport: false,
+    onlyInViewport: true,
     pageLeft: true,
     pageRight: true,
   },
