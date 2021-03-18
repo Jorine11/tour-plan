@@ -87,6 +87,55 @@
       &__item
         width: 339px
         min-height: 255px
+  .footer
+    padding-top: 10px
+    &-logo
+      width: 98px
+      height: 115px
+      grid-row: 1
+      margin-top: 30px
+    &-wrap
+      grid-template-columns: repeat(4, minmax(150px, 1fr))
+      grid-gap: 30px
+      grid-row-gap: 46px
+    &-categories
+      grid-row: 2
+      grid-column: 1 / 2
+    &-additional
+      grid-row: 2
+      grid-column: 2 / 4
+      max-width: 260px
+      margin-left: 23px
+    &-legal
+      grid-row: 2
+      grid-column: 3 / 5
+      padding-left: 140px
+    &-info
+      &__list
+        margin-top: 57px
+  .social
+    &-network
+      grid-row: 1
+      margin-top: 40px
+      margin-left: 10px
+  .contact
+    &-details
+      grid-row: 3
+      grid-column: span 4
+      padding-top: 15px
+      margin: 0
+      &__list
+        margin-top: 22px
+        margin-left: 11px
+  .send-messange
+    grid-column: span 4
+    &__title
+      margin-top: 12px
+    &__form
+      width: 543px
+    &__textarea
+      margin-bottom: 24px
+
 @media (max-width: 768px)
   .container
     max-width: 576px
@@ -166,6 +215,18 @@
       &__item
         width: 49%
         min-height: 230px
+  .footer
+    &-container
+      max-width: 700px
+      margin: auto
+    &-wrap
+      grid-gap: 0
+    &-legal
+      grid-column: 4 / 5
+      padding-left: 0px
+  .social
+    &-network
+      margin-left: 5px
 @media (max-width: 578px)
   .hotel
     padding-top: 5px
@@ -202,6 +263,53 @@
         min-height: 255px
         &:not(:last-child)
           margin-bottom: 12px
+  .footer
+    &-wrap
+      grid-gap: 0
+      grid-template-columns: 1fr
+    &-logo
+      grid-row: 1
+      grid-column: 1
+    &-additional
+      grid-row: 4
+      grid-column: 1
+      margin: 0
+      margin-bottom: 15px
+    &-categories
+      grid-row: 5
+      grid-column: 1
+      &__title
+        margin-bottom: 15px
+    &-legal
+      grid-row: 3
+      grid-column: 1
+      margin-bottom: 15px
+    &-info
+      &__list
+        margin-top: 40px
+        min-width: 100%
+  .contact
+    &-details
+      grid-row: 6
+      grid-column: 1
+  .social
+    &-network
+      grid-row: 2
+      grid-column: 1
+      margin-left: 0
+      margin-top: 15px
+      margin-bottom: 15px
+  .send
+    &-messange
+      grid-row: 7
+      grid-column: 1
+      &__form
+        width: 100%
+      &__input
+        flex-basis: 100%
+        margin-bottom: 10px
+      &__textarea
+        margin-top: 0
 
 @media (max-width: 480px)
   .navbar
@@ -224,6 +332,10 @@
       line-height: 23px
       text-align: center
       text-transform: uppercase
+  .footer
+    &-info
+      &__list
+        flex-wrap: wrap
 @media (max-width: 320px)
   .container
     width: 280px
@@ -288,3 +400,49 @@
       line-height: 23px
       text-transform: uppercase
       margin-bottom: 36px
+  .footer
+    padding-top: 40px
+    &-logo
+      margin-bottom: 22px
+    &-legal
+      margin-bottom: 31px
+    &-additional
+      margin-bottom: 31px
+    &-categories
+      margin-bottom: 31px
+    &__icon
+      &-wrap
+        min-width: 28px
+    &-info
+      &__list
+        margin-top: 30px
+      &__item
+        margin-bottom: 10px
+  .social
+    &-network
+      flex-wrap: wrap
+      margin-bottom: 32px
+      &__title
+        margin-bottom: 22px
+  .contact
+    &-details
+      margin-bottom: 58px
+      &__list
+        margin-top: 22px
+        margin-left: 3px
+  .send
+    &-messange
+      &__title
+        margin-top: 0
+        margin-bottom: 15px
+      &__input
+        margin-bottom: 15px
+        order: -2
+      &__textarea
+        margin-bottom: 16px
+        order: -1
+      &__button
+        order: 2
+  .required-fields
+    flex-basis: 100%
+    margin-bottom: 15px
