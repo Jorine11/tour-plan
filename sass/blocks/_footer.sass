@@ -8,8 +8,9 @@
     grid-gap: 20px
     grid-auto-rows: minmax(30px, min-content)
   &-logo
-    grid-row: 1 / 4
-    margin-top: 30px
+    &__wrap
+      grid-row: 1 / 4
+      margin-top: 30px
   &-categories
     grid-row: 1 / 4
     &__title
@@ -50,18 +51,19 @@
     &-wrap
       min-width: 40px
   &-info
-    display: flex
-    justify-content: flex-end
     &__list
-      min-width: 696px
-      display: flex
+      display: grid
+      grid-template-columns: repeat(3, 33%)
       justify-content: space-between
       align-items: center
       margin-top: 63px
     &__item
+      grid-column: 2 / 3
       width: 283px
       display: flex
       justify-content: space-between
+      align-self: end
+      justify-self: center
     &__text
       font-style: normal
       font-weight: normal
@@ -71,6 +73,9 @@
     &__link
       text-decoration: none
       color: inherit
+    &__img
+      grid-column: 3 / 4
+      justify-self: end
 .social
   &-network
     display: flex
@@ -94,7 +99,7 @@
       margin-right: 43px
 .contact
   &-details
-    padding-top: 30px
+    padding-top: 33px
     grid-row: 4
     grid-column: span 2
     margin-bottom: 94px
@@ -111,7 +116,7 @@
       list-style: none
       padding: 0
       margin: 0
-      margin-top: 22px
+      margin-top: 19px
     &__item
       display: flex
       align-items: flex-start
