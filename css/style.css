@@ -148,6 +148,11 @@ button {
   padding-left: 20px;
 }
 
+.fixed {
+  position: fixed;
+  width: 100%;
+}
+
 .breadclumb {
   background-color: #F5FAFE;
 }
@@ -1765,6 +1770,7 @@ template {
   }
   .navbar-bottom--visible {
     display: block;
+    overflow: scroll;
   }
   .user__name {
     padding: 0;
