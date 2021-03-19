@@ -152,12 +152,57 @@
       margin-bottom: 24px
 
 @media (max-width: 768px)
+  body
+    padding-top: 78px
   .container
     max-width: 576px
     width: 92%
   .navbar
-    &__search, &-menu, &__user
+    &-mobile
+      &--fixed
+        position: fixed
+        z-index: 99
+        left: 0
+        top: 0
+        right: 0
+    &__user, &__search
+      &--mobile
+        &--hidden
+          display: none
+    &__user
+      flex-direction: column
+      justify-content: center
+    &__search
+      &--mobile
+        &--visible
+          margin-left: 0
+    &-menu
+      flex-direction: column
+      &__item
+        margin-bottom: 20px
+        &--mobile
+          &--visible
+            display: block
+    &-bottom
       display: none
+      position: fixed
+      left: 0
+      right: 0
+      bottom: 0
+      top: 78px
+      padding-top: 31px
+      &--visible
+        display: block
+  .user
+    &__name
+      padding: 0
+      margin-top: 10px
+      font-style: normal
+      font-weight: normal
+      font-size: 14px
+      line-height: 18px
+      color: $light
+
   .swiper-container
     height: 47vw
   .slider
@@ -335,6 +380,10 @@
   .navbar
     .logo
       width: 132px
+    &__search
+      &--mobile
+        &--visible
+          width: 245px
   .hotel
     padding-top: 5px
     padding-bottom: 40px
@@ -362,11 +411,15 @@
       text-transform: uppercase
 
 @media (max-width: 320px)
+  body
+    padding-top: 71px
   .container
     width: 280px
   .navbar
     &-top
       padding-top: 23px
+    &-bottom
+      top: 71px
     .logo
       width: 99px
   .hotel
