@@ -208,7 +208,7 @@
       src="https://api-maps.yandex.ru/2.1/?apikey=9bb85ab4-cdf2-426d-b1df-69af474a8748&lang=ru_RU"
       type="text/javascript"
     ></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/parallax.min.js"></script>
     <script src="js/main.js"></script>
