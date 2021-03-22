@@ -825,7 +825,7 @@ button {
   border-radius: 6px;
 }
 
-.activities-card__img {
+.activities-cards__img {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -838,7 +838,7 @@ button {
   z-index: -2;
 }
 
-.activities-card__title {
+.activities-cards__title {
   margin: 0;
   font-style: normal;
   font-weight: bold;
@@ -848,7 +848,7 @@ button {
   margin-bottom: 15px;
 }
 
-.activities-card__button {
+.activities-cards__button {
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -877,7 +877,7 @@ button {
   grid-auto-rows: minmax(30px, min-content);
 }
 
-.footer-logo__wrap {
+.footer-logo {
   -ms-grid-row: 1;
   -ms-grid-row-span: 3;
   grid-row: 1 / 4;
@@ -1751,7 +1751,7 @@ template {
   .footer {
     padding-top: 10px;
   }
-  .footer-logo__wrap {
+  .footer-logo {
     width: 98px;
     height: 115px;
     -ms-grid-row: 1;
@@ -2015,7 +2015,7 @@ template {
         grid-template-columns: repeat(4, minmax(-webkit-min-content, 1fr));
         grid-template-columns: repeat(4, minmax(min-content, 1fr));
   }
-  .footer-logo__wrap {
+  .footer-logo {
     margin-bottom: 15px;
   }
   .footer-legal {
@@ -2130,7 +2130,7 @@ template {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
-  .footer-logo__wrap {
+  .footer-logo {
     -ms-grid-row: 1;
     grid-row: 1;
     -ms-grid-column: 1;
@@ -2342,7 +2342,7 @@ template {
   .footer {
     padding-top: 40px;
   }
-  .footer-logo__wrap {
+  .footer-logo {
     margin-bottom: 22px;
   }
   .footer-legal {
