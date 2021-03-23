@@ -19,7 +19,7 @@
     <header class="navbar navbar-mobile--fixed">
       <div class="container">
         <div class="navbar-top">
-          <a href="" class="logo">
+          <a href="index.html" class="logo">
             <img
               src="img/horizontal-logo.svg"
               alt="logo: Best Tour Plan"

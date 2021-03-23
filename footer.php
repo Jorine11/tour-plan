@@ -1,12 +1,12 @@
 <footer class="footer">
       <div class="container footer-container">
         <div class="footer-wrap">
-          <div class="footer-logo__wrap">
-            <img
+          <div class="footer-logo">
+            <a href="index.html"><img
               src="img/vertical-logo.svg"
               alt="logo: best tour plan"
-              class="logo footer-logo"
-            />
+              class="logo"
+            /></a>
           </div>
           <div class="footer__ul footer-categories">
             <h3 class="footer-categories__title footer__title">

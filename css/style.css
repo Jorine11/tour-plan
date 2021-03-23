@@ -26,6 +26,22 @@ button {
   cursor: pointer;
 }
 
+input::-webkit-input-placeholder {
+  color: #BDBDBD;
+}
+
+input:-ms-input-placeholder {
+  color: #BDBDBD;
+}
+
+input::-ms-input-placeholder {
+  color: #BDBDBD;
+}
+
+input::placeholder {
+  color: #BDBDBD;
+}
+
 .navbar {
   background-color: #fff;
 }
@@ -111,6 +127,22 @@ button {
   font-size: 12px;
   line-height: 15px;
   color: #333333;
+}
+
+.search__input::-webkit-input-placeholder {
+  color: #333;
+}
+
+.search__input:-ms-input-placeholder {
+  color: #333;
+}
+
+.search__input::-ms-input-placeholder {
+  color: #333;
+}
+
+.search__input::placeholder {
+  color: #333;
 }
 
 .search__button {
@@ -1216,7 +1248,6 @@ button {
   border-radius: 4px;
   border: none;
   margin-bottom: 15px;
-  color: #BDBDBD;
 }
 
 .modal__close {
@@ -1234,6 +1265,21 @@ button {
   border-radius: 4px;
   border: none;
   margin-bottom: 15px;
+}
+
+.modal__textarea::-webkit-input-placeholder {
+  color: #BDBDBD;
+}
+
+.modal__textarea:-ms-input-placeholder {
+  color: #BDBDBD;
+}
+
+.modal__textarea::-ms-input-placeholder {
+  color: #BDBDBD;
+}
+
+.modal__textarea::placeholder {
   color: #BDBDBD;
 }
 
