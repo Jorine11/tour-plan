@@ -12,20 +12,30 @@ $email = $_POST['email'];
 
 
 if (empty($name) && empty($phone) && empty($message)) {
-    $title = "Новая заявка";
+    $title = "Новая заявка на рассылку";
     $body = "
-    <h2>Новое письмо</h2>
+    <h2>Новая заявка на рассылку</h2>
     <b>Почта:</b><br>$email
     ";
-} else {
-    $title = "Новая заявка";
+} elseif (($name) && ($phone) && ($email)) {
+    $title = "Письмо с модалки";
     $body = "
-    <h2>Новое письмо</h2>
+    <h2>Письмо с модалки</h2>
+    <b>Имя:</b> $name<br>
+    <b>Телефон:</b> $phone<br><br>
+    <b>Почта:</b> $email<br><br>
+    <b>Сообщение:</b><br>$message
+    ";
+} elseif (($name) && ($phone)) {
+    $title = "Письмо с футера";
+    $body = "
+    <h2>Письмо с футера</h2>
     <b>Имя:</b> $name<br>
     <b>Телефон:</b> $phone<br><br>
     <b>Сообщение:</b><br>$message
     ";
-}
+};
+
 // Формирование самого письма
 
 

@@ -89,4 +89,23 @@ $(document).ready(function() {
       $('body').removeClass("fixed");
     };
   });
+
+  $(".form").each(function() {
+    $(this).validate({
+      messages: {
+      name: "Please specify your name",
+      email: {
+        required: "We need your email address to contact you",
+        email: "Your email address must be in the format of name@domain.com"
+        },
+      phone: {
+        required: "We need your phone to contact you",
+        phone: "Your phone must be in the format of +7 (999) 999-9999"
+        }
+      }
+    });
+  });
+
+  $('.input-phone').mask('+7(000) 000-0000')
+
 });
