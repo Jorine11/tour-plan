@@ -162,19 +162,29 @@
           <!-- /.contact-details -->
           <div class="send-messange">
             <h3 class="footer-title send-messange__title">Send us a message</h3>
-            <form action="send.php" method="POST" class="send-messange__form">
-              <input
-                type="text"
-                class="send-messange__input"
-                placeholder="Your Full Name*"
-                name="name"
-              />
-              <input
-                type="text"
-                class="send-messange__input"
-                placeholder="Phone Number*"
-                name="phone"
-              />
+            <form
+              action="send.php"
+              method="POST"
+              class="send-messange__form form"
+            >
+              <div class="send-messange__input-group">
+                <input
+                  type="text"
+                  class="send-messange__input"
+                  placeholder="Your Full Name*"
+                  name="name"
+                  required
+                />
+              </div>
+              <div class="send-messange__input-group">
+                <input
+                  type="tel"
+                  class="send-messange__input input-phone"
+                  placeholder="Phone Number*"
+                  name="phone"
+                  required
+                />
+              </div>
               <textarea
                 class="send-messange__textarea"
                 placeholder="Message"
