@@ -2282,7 +2282,7 @@ template {
         justify-self: start;
   }
   .modal__dialog {
-    width: 100%;
+    width: 90%;
   }
 }
 
