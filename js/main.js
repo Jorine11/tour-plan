@@ -108,4 +108,6 @@ $(document).ready(function() {
 
   $('.input-phone').mask('+7(000) 000-0000')
 
+  AOS.init();
+
 });
