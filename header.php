@@ -1,22 +1,23 @@
-  <!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Best Tour Plan - Hotel Booking</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&family=Nunito:wght@400;600;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/aos.css" />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="navbar navbar-mobile--fixed">
+    <header class="navbar navbar-mobile navbar-mobile--fixed">
       <div class="container">
         <div class="navbar-top">
           <a href="index.html" class="logo">
@@ -43,7 +44,7 @@
 
           <a href="#" class="user navbar__user navbar__user--mobile--hidden">
             <img
-              src="img/user-avatar.jpeg"
+              src="img/user-avatar.webp"
               alt="avatar: nathan"
               class="user__avatar"
             />
@@ -69,7 +70,7 @@
                   class="user navbar__user navbar__user--mobile--visible"
                 >
                   <img
-                    src="img/user-avatar.jpeg"
+                    src="img/user-avatar.webp"
                     alt="avatar: nathan"
                     class="user__avatar"
                   />

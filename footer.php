@@ -1,11 +1,12 @@
-<footer class="footer">
+    <footer class="footer">
       <div class="container footer-container">
         <div class="footer-wrap">
           <div class="footer-logo">
-            <a href="index.html"><img
-              src="img/vertical-logo.svg"
-              alt="logo: best tour plan"
-              class="logo"
+            <a href="#"
+              ><img
+                src="img/vertical-logo.svg"
+                alt="logo: best tour plan"
+                class="logo"
             /></a>
           </div>
           <div class="footer__ul footer-categories">
@@ -76,16 +77,13 @@
             <h3 class="footer__title social-network__title">Social Network</h3>
             <div class="social-network__links">
               <a href="" class="social-network__link"
-                ><img src="img/facebook.svg" alt="facebook" class="social__img"
+                ><img src="img/facebook.svg" alt="facebook"
               /></a>
               <a href="" class="social-network__link"
-                ><img src="img/youtube.svg" alt="youtube" class="social__img"
+                ><img src="img/youtube.svg" alt="youtube"
               /></a>
               <a href="" class="social-network__link"
-                ><img
-                  src="img/instagram.svg"
-                  alt="instagram"
-                  class="social__img"
+                ><img src="img/instagram.svg" alt="instagram"
               /></a>
             </div>
           </div>
@@ -205,7 +203,7 @@
               ><a href="" class="footer-info__link">Cancellation policy</a>
             </div>
             <img
-              src="img/payments.jpg"
+              src="img/payments.webp"
               alt="payments"
               class="footer-info__img"
             />
@@ -214,15 +212,16 @@
       </div>
       <!-- /.container -->
     </footer>
+    <script src="js/jquery-3.6.0.min.js"></script>
     <script
       src="https://api-maps.yandex.ru/2.1/?apikey=9bb85ab4-cdf2-426d-b1df-69af474a8748&lang=ru_RU"
       type="text/javascript"
     ></script>
-    <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/parallax.min.js"></script>
     <script src="js/jquery.mask.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

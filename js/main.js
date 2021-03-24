@@ -30,25 +30,37 @@ $(document).ready(function() {
     },
   });
 
-      ymaps.ready(init);
-      function init(){
-          // Создание карты.
-          var myMap = new ymaps.Map("map", {
-              // Координаты центра карты.
-              // Порядок по умолчанию: «широта, долгота».
-              // Чтобы не определять координаты центра карты вручную,
-              // воспользуйтесь инструментом Определение координат.
-              center: [55.774054, 37.651793],
-              // Уровень масштабирования. Допустимые значения:
-              // от 0 (весь мир) до 19.
-              zoom: 17
-          });
-          var myPlacemark = new ymaps.Placemark( [55.774054, 37.651793], {
-            balloonContent: 'Россия, Москва, Каланчёвская улица, 21/40',
-            hintContent:  'Hilton Moscow Leningradskaya'
-          });
-          myMap.geoObjects.add(myPlacemark);
-        };
+//   var fired = false;
+
+// window.addEventListener('scroll', () => {
+//     if (fired === false) {
+//         fired = true;
+        
+//         setTimeout(() => {
+// ymaps.ready(init);
+//       function init(){
+//           // Создание карты.
+//           var myMap = new ymaps.Map("map", {
+//               // Координаты центра карты.
+//               // Порядок по умолчанию: «широта, долгота».
+//               // Чтобы не определять координаты центра карты вручную,
+//               // воспользуйтесь инструментом Определение координат.
+//               center: [55.774054, 37.651793],
+//               // Уровень масштабирования. Допустимые значения:
+//               // от 0 (весь мир) до 19.
+//               zoom: 17
+//           });
+//           var myPlacemark = new ymaps.Placemark( [55.774054, 37.651793], {
+//             balloonContent: 'Россия, Москва, Каланчёвская улица, 21/40',
+//             hintContent:  'Hilton Moscow Leningradskaya'
+//           });
+//           myMap.geoObjects.add(myPlacemark);
+//         };
+//         }, 1000)
+//     }
+// });
+
+      
 
   var menuButton = document.querySelector('.menu-button');
   menuButton.addEventListener('click', function(){ 
