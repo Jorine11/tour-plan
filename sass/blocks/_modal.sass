@@ -16,7 +16,7 @@
   &__dialog
     position: relative
     width: 478px
-    min-height: 487px
+    height: 487px
     padding: 33px 88px
     position: fixed
     left: 50%
@@ -26,6 +26,7 @@
     background-color: $dark
     border-radius: 8px
     color: $light
+    overflow: auto
     visibility: hidden
     opacity: 0
     &--visible
@@ -33,11 +34,13 @@
       opacity: 1
   &__title
     text-align: center
+    margin: 0
   &__form
     .error
       font-size: 14px
   &__input
     width: 302px
+    height: 50px
     padding: 17px 0 17px 23px
     border-radius: 4px
     border: none
