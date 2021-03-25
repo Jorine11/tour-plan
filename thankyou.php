@@ -5,12 +5,12 @@
           <div class="hotel-info__text">
             <div class="hotel-wrap">
               <h1 class="hotel-name hotel-info__name">
-                Ваше письмо отправленно!
+                Your email has been sent!
               </h1>
             </div>
           </div>  
         </div>
-          <a href="index.html" class="return">вернуться на главую</a>
+          <a href="index.html" class="return">Main page</a>
       </div>
     </section>
   <?php include('footer.php');?>

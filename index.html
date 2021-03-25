@@ -37,7 +37,7 @@
               class="search__input"
               placeholder="Search Location"
             />
-            <button class="button search__button button--hover">
+            <button class="button search__button hover-button">
               <img src="img/search.svg" alt="icon: search" />
             </button>
           </form>
@@ -226,7 +226,7 @@
                 </div>
               </div>
               <!-- /.call-center -->
-              <button data-toggle="modal" class="booking-btn button--hover">
+              <button data-toggle="modal" class="booking-btn hover-button">
                 View Other Options
               </button>
             </div>
@@ -272,7 +272,7 @@
                 name="email"
                 required
               />
-              <button class="button newsletter-subscribe__button button--hover">
+              <button class="button newsletter-subscribe__button hover-button">
                 Send
               </button>
             </form>
@@ -396,7 +396,10 @@
       <div class="container">
         <h2 class="activities-title">Other Activities</h2>
         <div class="activities-cards">
-          <div class="activities-cards__item" data-aos="zoom-in">
+          <div
+            class="activities-cards__item activities-cards__item--order1"
+            data-aos="zoom-in"
+          >
             <img
               src="img/chamarel.webp"
               alt="The curious corner of chamarel"
@@ -407,7 +410,7 @@
               of chamarel
             </h3>
             <button
-              class="activities-cards__button button--hover"
+              class="activities-cards__button hover-button"
               data-toggle="modal"
             >
               Book Now
@@ -424,13 +427,16 @@
               course
             </h3>
             <button
-              class="activities-cards__button button--hover"
+              class="activities-cards__button hover-button"
               data-toggle="modal"
             >
               Book Now
             </button>
           </div>
-          <div class="activities-cards__item" data-aos="zoom-in">
+          <div
+            class="activities-cards__item activities-cards__item--order2"
+            data-aos="zoom-in"
+          >
             <img
               src="img/falls.webp"
               alt="Tamarind falls hiking trip - full day"
@@ -441,7 +447,7 @@
               trip - full day
             </h3>
             <button
-              class="activities-cards__button button--hover"
+              class="activities-cards__button hover-button"
               data-toggle="modal"
             >
               Book Now
@@ -458,7 +464,7 @@
               quest
             </h3>
             <button
-              class="activities-cards__button button--hover"
+              class="activities-cards__button hover-button"
               data-toggle="modal"
             >
               Book Now
@@ -546,13 +552,22 @@
           <div class="social-network">
             <h3 class="footer__title social-network__title">Social Network</h3>
             <div class="social-network__links">
-              <a href="" class="social-network__link" target="_blank"
+              <a
+                href="https://www.facebook.com/"
+                class="social-network__link"
+                target="_blank"
                 ><img src="img/facebook.svg" alt="facebook"
               /></a>
-              <a href="" class="social-network__link" target="_blank"
+              <a
+                href="https://www.youtube.com/"
+                class="social-network__link"
+                target="_blank"
                 ><img src="img/youtube.svg" alt="youtube"
               /></a>
-              <a href="" class="social-network__link" target="_blank"
+              <a
+                href="https://www.instagram.com/"
+                class="social-network__link"
+                target="_blank"
                 ><img src="img/instagram.svg" alt="instagram"
               /></a>
             </div>
@@ -607,10 +622,14 @@
                   />
                 </div>
                 <span class="contact-details__text"
-                  >Tel (business hours) : 269 1500 <br />
-                  Tel (hotline) Monday - Saturday: 52-56-61-38 (08:00 am –
-                  20:00pm) <br />
-                  Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm)
+                  >Tel (business hours) : <a href="tel:269 1500">269 1500</a
+                  ><br />
+                  Tel (hotline) Monday - Saturday:
+                  <a href="tel:52-56-61-38">52-56-61-38</a> (08:00 am – 20:00pm)
+                  <br />
+                  Tel (hotline) Sunday:
+                  <a href="tel:52-56-61-38">52-56-61-38</a> (08:00 am – 14:00
+                  pm)
                 </span>
               </li>
               <li class="contact-details__item">
@@ -622,7 +641,9 @@
                   />
                 </div>
                 <span class="contact-details__text"
-                  ><a href="#">cherly.lawson@example.com</a></span
+                  ><a href="mailto:cherly.lawson@example.com"
+                    >cherly.lawson@example.com</a
+                  ></span
                 >
               </li>
             </ul>
@@ -642,6 +663,7 @@
                   placeholder="Your Full Name*"
                   name="name"
                   required
+                  minlength="3"
                 />
               </div>
               <div class="send-messange__input-group">
@@ -651,6 +673,7 @@
                   placeholder="Phone Number*"
                   name="phone"
                   required
+                  minlength="16"
                 />
               </div>
               <textarea
@@ -658,7 +681,7 @@
                 placeholder="Message"
                 name="message"
               ></textarea>
-              <button class="send-messange__button button--hover">Send</button>
+              <button class="send-messange__button hover-button">Send</button>
               <span class="required-fields">* Required Fields</span>
             </form>
           </div>
@@ -696,6 +719,7 @@
             placeholder="Your Full Name*"
             name="name"
             required
+            minlength="3"
           />
           <input
             type="tel"
@@ -703,6 +727,7 @@
             placeholder="Phone Number*"
             name="phone"
             required
+            minlength="16"
           />
           <input
             type="email"
@@ -717,7 +742,7 @@
             name="message"
           ></textarea>
           <div class="modal-wrap">
-            <button class="modal__button button--hover">Send</button>
+            <button class="modal__button hover-button">Send</button>
             <span class="modal__required-fields">* Required Fields</span>
           </div>
         </form>
