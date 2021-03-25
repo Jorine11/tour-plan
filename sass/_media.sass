@@ -29,9 +29,6 @@
   a
     &:hover
       color: inherit
-  button
-    &:hover
-      background-color: $primary
   .navbar
     .logo
       width: 133px
@@ -163,6 +160,10 @@
         flex-basis: 47%
     &__textarea
       margin-bottom: 20px
+  .button
+    &--hover
+      &:hover
+        background-color: $primary
 @media (max-width: 768px)
   body
     padding-top: 78px
@@ -511,6 +512,8 @@
     &-subscribe
       &__input
         padding: 18px 75px 18px 17px
+      .error
+        font-size: 12px
   .review
     &-container
       height: auto
@@ -595,3 +598,10 @@
   .modal
     &__dialog
       width: 100%
+      left: 0
+      top: 0
+      transform: translate(0, 0)
+      bottom: 0
+    &__form
+      .error
+        font-size: 12px
