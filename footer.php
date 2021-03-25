@@ -2,7 +2,7 @@
       <div class="container footer-container">
         <div class="footer-wrap">
           <div class="footer-logo">
-            <a href="#"
+            <a href="index.html"
               ><img
                 src="img/vertical-logo.svg"
                 alt="logo: best tour plan"
@@ -76,13 +76,13 @@
           <div class="social-network">
             <h3 class="footer__title social-network__title">Social Network</h3>
             <div class="social-network__links">
-              <a href="" class="social-network__link"
+              <a href="" class="social-network__link" target="_blank"
                 ><img src="img/facebook.svg" alt="facebook"
               /></a>
-              <a href="" class="social-network__link"
+              <a href="" class="social-network__link" target="_blank"
                 ><img src="img/youtube.svg" alt="youtube"
               /></a>
-              <a href="" class="social-network__link"
+              <a href="" class="social-network__link" target="_blank"
                 ><img src="img/instagram.svg" alt="instagram"
               /></a>
             </div>
@@ -152,7 +152,7 @@
                   />
                 </div>
                 <span class="contact-details__text"
-                  >cherly.lawson@example.com</span
+                  ><a href="#">cherly.lawson@example.com</a></span
                 >
               </li>
             </ul>
@@ -188,7 +188,7 @@
                 placeholder="Message"
                 name="message"
               ></textarea>
-              <button class="send-messange__button">Send</button>
+              <button class="send-messange__button button--hover">Send</button>
               <span class="required-fields">* Required Fields</span>
             </form>
           </div>
@@ -213,10 +213,6 @@
       <!-- /.container -->
     </footer>
     <script src="js/jquery-3.6.0.min.js"></script>
-    <script
-      src="https://api-maps.yandex.ru/2.1/?apikey=9bb85ab4-cdf2-426d-b1df-69af474a8748&lang=ru_RU"
-      type="text/javascript"
-    ></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/parallax.min.js"></script>
     <script src="js/jquery.mask.min.js"></script>

@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -37,7 +37,7 @@
               class="search__input"
               placeholder="Search Location"
             />
-            <button class="button search__button">
+            <button class="button search__button button--hover">
               <img src="img/search.svg" alt="icon: search" />
             </button>
           </form>
