@@ -172,6 +172,7 @@
                   placeholder="Your Full Name*"
                   name="name"
                   required
+                  minlength="3"
                 />
               </div>
               <div class="send-messange__input-group">
@@ -181,6 +182,7 @@
                   placeholder="Phone Number*"
                   name="phone"
                   required
+                  minlength="16"
                 />
               </div>
               <textarea
