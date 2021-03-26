@@ -137,10 +137,14 @@
                   />
                 </div>
                 <span class="contact-details__text"
-                  >Tel (business hours) : 269 1500 <br />
-                  Tel (hotline) Monday - Saturday: 52-56-61-38 (08:00 am –
-                  20:00pm) <br />
-                  Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm)
+                  >Tel (business hours) : <a href="tel:2691500">269 1500</a
+                  ><br />
+                  Tel (hotline) Monday - Saturday:
+                  <a href="tel:52-56-61-38">52-56-61-38</a> (08:00 am – 20:00pm)
+                  <br />
+                  Tel (hotline) Sunday:
+                  <a href="tel:52-56-61-38">52-56-61-38</a> (08:00 am – 14:00
+                  pm)
                 </span>
               </li>
               <li class="contact-details__item">
