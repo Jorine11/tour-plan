@@ -1,0 +1,195 @@
+.footer
+  padding-top: 109px
+  padding-bottom: 34px
+  background-color: $dark
+  &-wrap
+    display: grid
+    grid-template-columns: repeat(4, minmax(250px, 1fr))
+    grid-gap: 20px
+    grid-auto-rows: minmax(30px, min-content)
+  &-logo
+    grid-row: 1 / 4
+    margin-top: 30px
+  &-categories
+    grid-row: 1 / 4
+    &__title
+      margin: 0
+      margin-bottom: 18px
+  &-additional
+    grid-row: 1 / 2
+    margin-left: 5px
+    &__title
+      margin: 0
+      margin-bottom: 15px
+  &-legal
+    padding-left: 66px
+    &__title
+      margin: 0
+      margin-bottom: 15px
+  &__ul
+    color: #BDBDBD
+  &__title
+    font-style: normal
+    font-weight: bold
+    font-size: 18px
+    line-height: 23px
+    color: $light
+    text-transform: uppercase
+  &-list
+    list-style: none
+    padding: 0
+    margin: 0
+    &__item
+      font-style: normal
+      font-weight: normal
+      font-size: 14px
+      line-height: 160%
+    &__link
+      text-decoration: none
+      color: inherit
+  &__icon
+    &-wrap
+      min-width: 40px
+  &-info
+    &__list
+      display: grid
+      grid-template-columns: repeat(3, 33%)
+      justify-content: space-between
+      align-items: end
+      margin-top: 63px
+    &__item
+      grid-column: 2 / 3
+      display: flex
+      justify-content: space-between
+      justify-self: center
+      margin-left: 12px
+      color: $light
+    &__link
+      font-style: normal
+      font-weight: normal
+      font-size: 12px
+      line-height: 15px
+      color: $light
+      text-decoration: none
+      margin-right: 12px
+    &__img
+      grid-column: 3 / 4
+      justify-self: end
+.social
+  &-network
+    display: flex
+    align-items: center
+    grid-row: 2 / 3
+    grid-column: span 2
+    font-style: normal
+    font-weight: bold
+    font-size: 18px
+    line-height: 23px
+    color: $light
+    margin-left: 5px
+    &__links
+      display: flex
+      justify-content: space-between
+      min-width: 83px
+    &__link
+      height: 20px
+    &__title
+      margin: 0
+      margin-right: 43px
+.contact
+  &-details
+    padding-top: 33px
+    grid-row: 4
+    grid-column: span 2
+    margin-bottom: 94px
+    &__title
+      margin: 0
+      margin-bottom: 27px
+    &__description
+      color: #BDBDBD
+      font-style: normal
+      font-weight: normal
+      font-size: 14px
+      line-height: 160%
+    &__list
+      list-style: none
+      padding: 0
+      margin: 0
+      margin-top: 19px
+    &__item
+      display: flex
+      align-items: flex-start
+      color: #BDBDBD
+      font-style: normal
+      font-weight: normal
+      font-size: 14px
+      line-height: 160%
+      flex-basis: 100%
+      &:not(:last-child)
+        margin-bottom: 20px
+    &__text
+      min-width: 50px
+.send
+  &-messange
+    grid-row: 4
+    grid-column: span 2
+    &__title
+      font-style: normal
+      font-weight: bold
+      font-size: 18px
+      line-height: 23px
+      text-transform: uppercase
+      color: $light
+      margin-top: 23px
+      margin-bottom: 34px
+    &__form
+      display: flex
+      align-items: center
+      flex-wrap: wrap
+      justify-content: space-between
+      font-style: normal
+      font-weight: normal
+      font-size: 12px
+      line-height: 15px
+      margin-left: 3px
+      max-width: 540px
+    &__input
+      padding-top: 18px
+      padding-bottom: 18px
+      padding-left: 23px
+      width: 100%
+      height: 50px
+      border: none
+      border-radius: 4px
+      flex-basis: 47%
+      &-group
+        flex-basis: 47%
+        height: 50px
+    &__textarea
+      resize: none
+      width: 100%
+      height: 123px
+      border: none
+      border-radius: 4px
+      padding-top: 18px
+      padding-bottom: 18px
+      padding-left: 23px
+      margin-top: 15px
+      margin-bottom: 21px
+    &__button
+      font-style: normal
+      font-weight: bold
+      font-size: 12px
+      line-height: 15px
+      width: 160px
+      height: 50px
+      border: none
+      border-radius: 4px
+      background-color: $primary
+      color: $light
+.required-fields
+  font-style: normal
+  font-weight: bold
+  font-size: 12px
+  line-height: 15px
+  color: #E0E0E0

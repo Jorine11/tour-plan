@@ -3,6 +3,7 @@
 body
   font-family: 'Mulish', sans-serif
   color: $text-color
+  background-color: $bg-color
 .container
   width: 1110px
   margin: auto
@@ -13,3 +14,20 @@ button, input, textarea, a
 
 button
   cursor: pointer
+
+input::placeholder
+  color: #BDBDBD
+
+.error
+  color: $primary
+
+a
+  text-decoration: none
+  color: inherit
+  &:hover
+    color: blue
+
+.hover
+  &-button
+    &:hover
+      background-color: #FF4500
